@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+ main{
+  display: grid;
+  align-items: center ;
+  justify-content: center;}
+  .head img{
+      height: 51px;
+      width: 51;
+  }
+  .head{
+      background-color: blue;
+      height: 90px;
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      justify-content: space-between;
+  }
+  .icon
+  {
+      color: whitesmoke;
+      display: flex;
+      font-size: 24px;
+      align-items: center;
+      justify-content: center;
+  }
+  .profile {
+      margin-right: 15px;
+      display: flex;
+      align-items: center;
+  }
+  .profile a{
+    text-decoration: none;
+    margin-right: 50px;
+    color: white;
+    font-size: 24px;
+
+  }
+ body{
+   /* background-color: rgb(224, 86, 81); */
+   font-family: 'Poppins', sans-serif;
+  background-color: #F3F1FF;
+  margin:0px ;
+   
+}
+ .container{
+    width:870px;
+    display: grid;
+    background-color:white;
+    margin-bottom: 21px;
+    border-radius: 5px;
+}  
+  .title{
+      margin-top: 14px;
+      margin-left: 33px;
+      color: blue;
+  }
+.player-list{
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap:16px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+.player{
+    display: flex;
+    align-items:center;
+    margin-left: 30px;
+}
+.player-pic img{
+    height: 56px;
+    width: 56px;
+}
+.player-name{
+    font-size: 18px;
+    margin-left: 16px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+margin: 0px;}
+    /* ------------------
+            TOP BLOG
+    ----------------- */
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 26px;
+    }
+    .blog{
+        display: flex;
+        align-items:center;
+    }
+    .blog img{
+        width: 177px;
+        height: 117px;
+        margin:0px 23px 0 30px;
+    }
+    .blog-info{
+        font-size: 20px;
+    }
+    .by{
+        color: #9F9F9F;
+    }
+    span{
+        color: #562EFF;
+    }
+    /* ------------------latest-course------------ */
+    .course-container{
+        width:870px;
+        display: grid;
+        background-color:white;
+        margin-bottom: 28px;
+        border-radius: 5px;
+    }  
+    .course-title{
+        margin-top: 23px;
+        margin-left: 33px;
+        color: blue;
+    }
+    .courses{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .course{
+        height:350px;
+        
+       margin:11px 24px 24px 24px;
+       border-radius: 5px;
+       box-shadow: 5px 10px blanchedalmond;
+    }
+    .course img{
+        width: 224px;
+        height: 104px;
+    }
+    .course-rank{
+        display: flex;
+        justify-content: space-between;
+    }
+    .filled{
+        color:goldenrod;
+    }
+    .empty{
+        color:darkgrey;
+    }
+    .course-time{
+        background-color:lightpink;
+        border-radius: 30px;
+        padding:5px;
+        font-size: 10px;
+    }
+    .rank{
+        color: #A2A2A2;
+        font-size: 15px;
+    }
+    .time{
+        color: #FF4A60;
+    }
+   
